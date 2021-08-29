@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:url('imagens/OIP.jpg') repeat;
+}
+
+ul{
+    list-style: none;
+    width: 165px;
+    margin-top: 20px;
+}
+ul li{
+    position: relative;
+}
+
+li ul{
+    position: absolute;
+    display: none;
+    left: 149px;
+    top: 0;
+}
+
+ ul li a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    background: rgb(232, 255, 100);
+    padding: 5px;
+    border: 1px solid;
+}
+
+li:hover ul{
+    display: block;
+    z-index: 2;
+}
+
+ ul li a:hover{
+    background: red;
+
+}
+
+.cabecalho{
+    text-align: center;
+    height:55px;
+    line-height:50px;
+    margin: 0 auto;
+    background: url(imagens/cabecalho.jpg) repeat;
+    background-size: contain;
+    color: #FFF;
+    font-size: 1.5em;
+}
+
+.principal{
+    width: 900px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.conteudo{
+    padding: 20px;
+    
+}
+
+.conteudo figure img{
+    margin-left: 100px;
+}
+
+.conteudo h2,figcaption{
+    text-align: center;
+}
+.conteudo figcaption{
+    color:rgb(153, 153, 153);
+}
+
+

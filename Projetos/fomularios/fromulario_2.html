@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment from</title>
+    <style>
+        from{
+            border:1px solid blue;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            align-items: center;
+        }
+
+        fieldset{
+            width: 13%;
+            margin-left: 600px;
+            
+        }
+    </style>
+</head>
+<body>
+    
+
+    <from  action='formulario.html' method='POST'>
+        
+        <h1>Payment from</h1>
+
+        <p>Required fields are followed by..*</p>
+
+        <h2>Contact information</h2>
+        <p>
+        <fieldset>
+            <legend>Title</legend>
+            <div>
+                <input type="radio" name="title" id="">
+                <label for="title" id='title'>Ace</label>
+            </div>
+            
+            <div>
+                <input type="radio" name="title" id="">
+                <label for="title" id='title'>King</label>
+            </div>
+            <div>
+                <input type="radio" name="title" id="">
+                <label for="title" id='title'>Quenn</label>
+            </div>
+
+        </fieldset>
+    </p>
+        
+        <div>
+            <label for="nome">Nome..*</label>
+            <input type="text" id="name" size="22" placeholder="Nome" required='true'>
+        </div>
+
+        <div>
+            <label for="email">Email..*</label>
+            <input type="email" id="email" size="22" placeholder="Email" required='true'>
+        </div>
+
+        <div>
+            <label for="senha">Senha..*</label>
+            <input type="password" id="senha" maxlength="6" size="22" placeholder='senha' required='true'>
+        </div>
+
+        <h2>Paymente information</h2>
+
+        <div>
+            <label for="card">Card Type..*</label>
+            <select id="card" name='usercard'>
+                <option value='Visa'>Visa</option>
+                <option value='mc'>Mastercard</option>
+                <option value='amex'>American Express</option>
+            </select>
+        </div>
+        <div>
+            <div> <label for="cardnumber">Card Number..*</label>
+            <input type="number" id="cardnumber" size="22" placeholder="Card Number" required='true'>
+        </div>
+        <div>
+            <label for="data">Expiration date:</label>
+            <input type="date" id="data" size="22" required='true'>
+            
+        </div>
+        
+       
+        <div class='button'>
+            <button>Validate the payment</button>
+        </div>
+    </from>
+</body>
+</html>

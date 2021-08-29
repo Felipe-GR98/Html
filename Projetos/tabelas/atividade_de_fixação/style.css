@@ -1,0 +1,20 @@
+body{
+    color: #FFF;
+}
+table{
+    border:1px solid  rgb(253, 0, 0);
+}
+table tr td{
+    border:1px solid rgb(255, 0, 0);
+    text-align: center;
+    background: rgb(0, 0, 0);
+}
+table tr th{
+    border:1px solid rgb(255, 0, 0);
+    background: rgb(3, 3, 3);
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: #FFF;
+}

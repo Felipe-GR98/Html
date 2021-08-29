@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inscrição</title>
+    <style>
+       from {
+           border: 1px solid red;
+           text-align: center;
+           margin-top: 10px;
+       }
+       h1{
+           text-align: center;
+       }
+    </style>
+</head>
+<body>
+    <p><h1>Formulario de Inscrição</h1></p>
+
+    <from action='formulario.html' method='POST'>
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="name" size="22" placeholder="Nome">
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" size="22" placeholder="Email">
+        </div>
+
+        <div>
+            <label for="enderco">Endereco:</label>
+            <input type="text" id="endereco" size="20" placeholder="endereco">
+        </div>
+        <div>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" size="22" placeholder="Cidade">
+        </div>
+        <div>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" size="1" maxlength='2' placeholder="DDD">
+            <input type="tel" id="telefone" size="14" placeholder="numero">
+        </div>
+        <div>
+            <label for="usuario">Usuario:</label>
+            <input type="usuario" id="usuario" size="22" placeholder="Usuario">
+        </div>
+        <div>
+            <label for="senha">Bairo:</label>
+            <input type="password" id="senha" maxlength="6" size="22" placeholder='senha'>
+        </div>
+        <div>
+            <button>Enviar Formulario</button>
+        </div>
+    </from>
+</body>
+</html>

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background: #CCC;
+}
+
+#cabecalho{
+    color: black;
+    background: #0a64db;
+    font-size: 20px;
+    padding-top: 20px;
+    height:95px;
+    text-align: center;
+}
+
+#cabecalho span{
+    color: #FFF;
+}
+
+.menu{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li{
+    padding: 5px 10px;
+}
+
+.lista{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lista:hover .dropdonw ul, lista.over .dropdonw ul{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+}
+
+.dropdonw{
+    background-color: #0a64db;
+    width: 300px;
+    z-index: 40;
+}
+
+.dropdonw ul{
+    display: none !important;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu li a{
+    color:#333; 
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;
+    background: #0a64db;
+}
+
+.menu li a:hover{
+    background: #0d91e9;
+    color: #FFF;
+
+} 
+
+.principal{
+    background: #FFF;
+    width: 920px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.conteudo{
+   padding: 40px;
+    border-radius: 5px;
+    
+    
+}
+.conteudo img{
+    margin-left: 100px;;
+}
+.conteudo h2{
+    text-align: center;
+    padding-top: 20px;  
+    padding-bottom: 20px;
+}
+
+.conteudo figcaption{
+    color: rgb(167, 166, 166);
+    text-align: center;
+}
